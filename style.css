@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+background-color: #DEFFFC;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: bold;
+color:#363652;
+}
+
+.msg-container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.6rem;
+    font-size: 1.5rem;
+}
+
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.6rem;
+    font-size: 1.5rem;
+}
+
+
+.game{
+height:70vh;
+width: 35vw;
+display:flex;
+justify-content: center;
+gap:1.1rem;
+flex-wrap:wrap;
+}
+
+.box{
+    background-color: #E7C8DD;
+    color:#363652;
+    height:7rem;
+    width:7rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    cursor: pointer;
+    border:none;
+}
+
+.box:hover{
+    background-color: #e4b7d6;
+}
+.new-game-btn,.reset-btn{
+    padding:10px;
+    color:#363652;
+    font-style: bold;
+    background-color: #9aa5df;
+    border:none;
+    border-radius:10px;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.new-game-btn:hover,.reset-btn:hover{
+    background-color: #8896da;
+}
+
+.hide{
+    display: none;
+}
