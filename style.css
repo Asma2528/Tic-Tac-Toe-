@@ -11,6 +11,7 @@ color:#363652;
 }
 
 .msg-container{
+    background-color: #DEFFFC;
     height:100vh;
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ color:#363652;
     align-items: center;
     flex-direction: column;
     gap:1.6rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 
@@ -48,7 +49,7 @@ flex-wrap:wrap;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     cursor: pointer;
     border:none;
 }
